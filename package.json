@@ -1,0 +1,27 @@
+{
+  "name": "popeyebot",
+  "version": "1.0.0",
+  "description": "bot do marinao",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [
+    "mariners",
+    "bot",
+    "recife"
+  ],
+  "author": "Guilherme Pinho",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
